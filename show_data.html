@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <title>Data </title>
+</head>
+    <body>
+
+
+
+                    <header class="header  header_2">
+                            
+                        <h1 class="header__title header__title_2">Mighty Ducks Hockey League</h1>
+                        <img  class="img_header img_disable" src="./assets/img/design1_image2.jpg" alt="">
+                        <h2 class="header__subtitle header__subtitle_2"> The following information has been sent as your
+                          feedback:</h2>
+                    </header>
+                    <img  class="logo" src="./assets/img/Logo_Mighty_ducks-01.png" alt="Logo">
+                    
+                    
+                    <nav class="nav">
+                        <a   href="./index.html">Home</a>
+                        <a   href="./about.html">About MDHL</a>
+                        <a   href="./rules.html">Rules</a>
+                        <a   href="./game_info.html">Schedule</a>
+                        <a   href="./registration.html">Registration</a>
+                        <a   href="./contact.html">Contact</a>
+                    </nav>
+                    
+                    <main class="main" >
+                    <table border="1" align=center width="226">
+                      <tr>
+                        <th align="center">Form Field</th>
+                        <th align="center">Field Value</th>
+                      </tr>
+
+        <script language="javascript">
+                      var args = location.search.substr(1).split('&');
+                      for (var i = 0; i < args.length; ++i) {
+                        var parts = args[i].split('=');
+                        if (parts != null) {
+                          var field = parts[0];
+                          var value = parts[1];
+                          if (value == null) {
+                            value = "null"
+                          }
+                          else {
+                            value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+                          }
+
+                          document.writeln('<tr><td align="center">' + field + '</td>');
+                          document.writeln('<td align="center">' + value + '</td></tr>');
+                        }
+                      }
+      </script>
+
+              <noscript>
+                    <tr><td>
+                    <p>You need to turn on Javascript in your browser.</p>
+
+                    <p>In Microsoft Internet Explorer 4 or greater:</p>
+                    <ul>
+                    <li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
+                    <li>Click on the "Security" tab.</li>
+                    <li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+                    and then click on "Settings...".)</li>
+                    <li>Under "Active scripting" make sure "Enable" is selected.</li>
+                    </ul>
+
+                    <p>In Netscape version 4 or greater:</p>
+                    <ul>
+                    <li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+                    <li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+                    <li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+                    <li>Click the <b>OK</b> button.</li>
+                    </ul>
+
+                    </td></tr>
+              </noscript>
+
+      </table>
+      </main>
+      <footer> 
+                  <p>
+                      Nicolás Cirulli - Mighty Ducks Hockey League
+                  </p>
+      </footer>
+  </body>
+</html>
